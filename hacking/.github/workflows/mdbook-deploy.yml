@@ -1,6 +1,4 @@
-name: Deploy mdBook
-
-on:
+name: mdBook Site Deployment
   push:
     branches: ["main"]
   workflow_dispatch:
