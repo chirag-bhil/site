@@ -1,0 +1,16 @@
+[book]
+authors = ["Knight"]
+language = "en"
+src = "src"
+title = "Hacking"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/chirag-bhil/site"
+edit-url-template = "https://github.com/chirag-bhil/site/edit/main/{path}"
+fold.enable = true
+fold.level = 0
+
+[output.html.search]
+enable = true
