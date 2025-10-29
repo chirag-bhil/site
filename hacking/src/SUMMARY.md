@@ -16,7 +16,7 @@
 
 # Programming
 
-- [Python](./programming/python.md)
+- [Python1](./programming/python.md)
   - [Basics](./programming/python-basics.md)
   - [Scripts](./programming/python-scripts.md)
 - [C Programming](./programming/c.md)
