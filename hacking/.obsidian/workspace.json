@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book/programming/Hello World.md",
+                "file": "src/programming/python-basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hello World"
+              "title": "python-basics"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "book/programming/Hello World.md",
+                "file": "src/programming/python-basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Hello World"
+              "title": "Backlinks for python-basics"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "book/programming/Hello World.md",
+                "file": "src/programming/python-basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Hello World"
+              "title": "Outgoing links from python-basics"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book/programming/Hello World.md",
+                "file": "src/programming/python-basics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hello World"
+              "title": "Outline of python-basics"
             }
           }
         ]
@@ -172,6 +172,13 @@
   },
   "active": "0e45873134d36c67",
   "lastOpenFiles": [
+    "src/programming/python.md",
+    "src/chapter_1.md",
+    "src/programming/python-scripts.md",
+    "src/programming/python-basics.md",
+    "src/programming/c-pointers.md",
+    "src/programming/c-ds.md",
+    "src/programming/c.md",
     "book/programming/Hello World.md"
   ]
 }
