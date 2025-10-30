@@ -50,7 +50,7 @@ nav:
     
     - CTF Writeups:
       - TryHackMe: cybersecurity/tryhackme.md
-      - Hack The Box: cybersecurity/htb.md
+      - Hack The Box: cybersecurity/hackthebox.md
       - General CTF: cybersecurity/ctf.md
     
     - Network Security: cybersecurity/network.md
