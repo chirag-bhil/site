@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docs/cybersecurity/hackthebox.md",
+                "file": "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hackthebox"
+              "title": "1.web_requests"
             }
           }
         ]
@@ -167,12 +167,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "0a5564133ad0f572",
+  "active": "3ee96b3edb444082",
   "lastOpenFiles": [
+    "docs/docs/cybersecurity/hackthebox.md",
+    "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
     "docs/docs/cybersecurity/bug_bounty/1. web_requests",
     "docs/docs/cybersecurity/bug_bounty",
     "docs/docs/cybersecurity/owasp-top10.md",
-    "docs/docs/cybersecurity/hackthebox.md",
     "docs/docs/cybersecurity/ctf.md",
     "docs/docs/cybersecurity/network.md",
     "docs/docs/cybersecurity/sqli.md",
