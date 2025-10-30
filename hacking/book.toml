@@ -1,16 +1,27 @@
 [book]
-authors = ["Knight"]
-language = "en"
-src = "src"
 title = "Hacking"
+authors = ["Your Name"]
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+
+[preprocessor.pagetoc]
+command = "mdbook-pagetoc"
+renderer = ["html"]
 
 [output.html]
-default-theme = "light"
+default-theme = "navy"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/chirag-bhil/site"
-edit-url-template = "https://github.com/chirag-bhil/site/edit/main/{path}"
-fold.enable = true
-fold.level = 0
+additional-css = ["theme/pagetoc.css"]
+
+[output.html.fold]
+enable = true
+level = 0
 
 [output.html.search]
 enable = true
+
