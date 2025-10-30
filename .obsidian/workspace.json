@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2a9f756b99bd7d64",
@@ -94,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 1.web_requests"
             }
           },
           {
@@ -140,15 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 1.web_requests"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -169,6 +173,7 @@
   },
   "active": "3ee96b3edb444082",
   "lastOpenFiles": [
+    "docs/docs/assets/images/Pasted image 20251030210508.png",
     "docs/docs/assets/images/Pasted image 20251030205951.png",
     "docs/docs/assets/images/Pasted image 20251030204934.png",
     "docs/docs/assets/images/Pasted image 20251030204107.png",
@@ -180,7 +185,6 @@
     "docs/docs/assets/Pasted image 20251030203751.png",
     "docs/docs/assets/Pasted image 20251030203439.png",
     "docs/docs/assets/images/url-structured.png",
-    "docs/docs/assets/Pasted image 20251030203516.png",
     "assets/images/Pasted.md",
     "assets/images",
     "assets",
