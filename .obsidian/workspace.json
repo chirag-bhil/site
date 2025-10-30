@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -169,6 +169,7 @@
   },
   "active": "3ee96b3edb444082",
   "lastOpenFiles": [
+    "Pasted image 20251030195517.png",
     "docs/docs/cybersecurity/hackthebox.md",
     "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
     "docs/docs/cybersecurity/bug_bounty/1. web_requests",
