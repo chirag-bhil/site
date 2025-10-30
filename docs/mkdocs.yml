@@ -47,6 +47,8 @@ nav:
       - Overview: cybersecurity/web-hacking.md
       - SQL Injection: cybersecurity/sqli.md
       - OWASP Top 10: cybersecurity/owasp-top10.md
+      - Bug Bounty:
+	-1. Web Requests: cybersecurity/bug-bounty/1.web-requests
     
     - CTF Writeups:
       - TryHackMe: cybersecurity/tryhackme.md

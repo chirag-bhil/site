@@ -167,12 +167,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "3ee96b3edb444082",
+  "active": "0a5564133ad0f572",
   "lastOpenFiles": [
-    "docs/docs/cybersecurity/ctf.md",
-    "docs/docs/cybersecurity/hackthebox.md",
-    "docs/docs/cybersecurity/network.md",
+    "docs/docs/cybersecurity/bug bounty/1. web requests",
+    "docs/docs/cybersecurity/bug bounty",
     "docs/docs/cybersecurity/owasp-top10.md",
+    "docs/docs/cybersecurity/hackthebox.md",
+    "docs/docs/cybersecurity/ctf.md",
+    "docs/docs/cybersecurity/network.md",
     "docs/docs/cybersecurity/sqli.md",
     "docs/docs/cybersecurity/tryhackme.md",
     "docs/docs/cybersecurity/web-hacking.md",
