@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -169,6 +169,7 @@
   },
   "active": "3ee96b3edb444082",
   "lastOpenFiles": [
+    "docs/docs/assets/images/Pasted image 20251030204107.png",
     "docs/docs/assets/images/Pasted image 20251030203841.png",
     "docs/docs/assets/Pasted image 20251030203751.png",
     "docs/docs/assets/Pasted image 20251030203439.png",
