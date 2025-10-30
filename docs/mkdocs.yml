@@ -50,7 +50,7 @@ nav:
       - OWASP Top 10: cybersecurity/owasp-top10.md
     - Bug Bounty:
       - 1. Intro: 
-        - 1. Web-Requests: cybersecurity/bug_bounty/1.web_requests
+        - 1. Web-Requests: cybersecurity/bug_bounty/1.web_requests.md
     
     - CTF Writeups:
       - TryHackMe: cybersecurity/tryhackme.md
