@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docs/cybersecurity/htb.md",
+                "file": "docs/docs/cybersecurity/hackthebox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "htb"
+              "title": "hackthebox"
             }
           }
         ]
@@ -169,7 +169,15 @@
   },
   "active": "3ee96b3edb444082",
   "lastOpenFiles": [
+    "docs/docs/cybersecurity/ctf.md",
+    "docs/docs/cybersecurity/hackthebox.md",
+    "docs/docs/cybersecurity/network.md",
+    "docs/docs/cybersecurity/owasp-top10.md",
+    "docs/docs/cybersecurity/sqli.md",
+    "docs/docs/cybersecurity/tryhackme.md",
     "docs/docs/cybersecurity/web-hacking.md",
-    "docs/docs/cybersecurity/ctf.md"
+    "README.md",
+    "docs/docs/README.md",
+    "docs/docs/index.md"
   ]
 }
