@@ -1,0 +1,52 @@
+/* Increase font size */
+.md-typeset {
+    font-size: 20px;  /* Default is 14px */
+    line-height: 1.8;
+}
+
+.md-typeset p {
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+
+.md-typeset h1 {
+    font-size: 2.2em;
+}
+
+.md-typeset h2 {
+    font-size: 1.8em;
+}
+
+.md-typeset h3 {
+    font-size: 1.5em;
+}
+
+/* Wider sidebar - takes less space from content */
+@media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+        width: 15rem;  /* Default is 12.1rem */
+    }
+}
+
+/* Wider content area */
+.md-grid {
+    max-width: 90%;  /* Default is 61rem */
+}
+
+.md-content {
+    max-width: none;
+}
+
+/* Better spacing */
+.md-content__inner {
+    padding: 2rem 3rem;
+}
+
+/* Code blocks */
+.md-typeset code {
+    font-size: 14px;
+}
+
+.md-typeset pre > code {
+    font-size: 14px;
+}

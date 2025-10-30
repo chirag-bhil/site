@@ -1,0 +1,71 @@
+site_name: Hacking Documentation
+site_url: https://chirag-bhil.github.io/site/
+repo_url: https://github.com/chirag-bhil/site
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: cyan
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - admonition
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 🏠 Home: index.md
+  
+  - 😊 Cybersecurity:
+    - Web Hacking:
+      - Overview: cybersecurity/web-hacking.md
+      - SQL Injection: cybersecurity/sqli.md
+      - OWASP Top 10: cybersecurity/owasp-top10.md
+    
+    - CTF Writeups:
+      - TryHackMe: cybersecurity/tryhackme.md
+      - Hack The Box: cybersecurity/htb.md
+      - General CTF: cybersecurity/ctf.md
+    
+    - Network Security: cybersecurity/network.md
+  
+  - 💻 Programming:
+    - Python:
+      - Basics: programming/python-basics.md
+      - Scripts: programming/python-scripts.md
+    
+    - C Programming:
+      - Overview: programming/c.md
+      - Pointers: programming/c-pointers.md
+      - Data Structures: programming/c-ds.md
+  
+  - 📚 Guides & Tutorials:
+    - Linux: guides/linux.md
+    - Tools: guides/tools.md
+
