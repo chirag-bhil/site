@@ -17,7 +17,8 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.indexes
-    - toc.follow
+    - toc.follow              # ← ADD THIS
+    - toc.integrate           # ← ADD THIS (integrates TOC into sidebar)
     - navigation.top
     - search.suggest
     - search.highlight
