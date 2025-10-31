@@ -54,8 +54,8 @@ nav:
     
     - CTF Writeups:
       - TryHackMe:
-	-Challenges:
-	 -Brains: cybersecurity/tryhackme/challenges/brains.md
+	- Challenges:
+	  - Brains: cybersecurity/tryhackme/challenges/brains.md
       - Hack The Box: cybersecurity/hackthebox.md
       - General CTF: cybersecurity/ctf.md
     
