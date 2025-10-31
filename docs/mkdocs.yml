@@ -1,5 +1,7 @@
-site_name: Hacking Documentation
+ksite_name: Hacking Documentation
+
 site_url: https://chirag-bhil.github.io/site/
+
 repo_url: https://github.com/chirag-bhil/site
 
 theme:
@@ -17,8 +19,8 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.indexes
-    - toc.follow              # ← ADD THIS
-    - toc.integrate           # ← ADD THIS (integrates TOC into sidebar)
+    - toc.follow
+    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -48,14 +50,15 @@ nav:
       - Overview: cybersecurity/web-hacking.md
       - SQL Injection: cybersecurity/sqli.md
       - OWASP Top 10: cybersecurity/owasp-top10.md
+    
     - Bug Bounty:
-      - 1. Intro: 
+      - 1. Intro:
         - 1. Web-Requests: cybersecurity/bug_bounty/1.web_requests.md
     
     - CTF Writeups:
       - TryHackMe:
-  - Challenges:
-    - Brains: cybersecurity/tryhackme/challenges/brains.md
+        - Challenges:
+          - Brains: cybersecurity/tryhackme/challenges/brains.md
       - Hack The Box: cybersecurity/hackthebox.md
       - General CTF: cybersecurity/ctf.md
     
