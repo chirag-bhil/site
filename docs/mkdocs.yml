@@ -62,7 +62,8 @@ nav:
       - Hack The Box: cybersecurity/hackthebox.md
       - General CTF: cybersecurity/ctf.md
     
-    - Blogs: cybersecurity/extra/Trace_method.md
+    - Blogs: 
+      - Trace Method: cybersecurity/extra/Trace_method.md
   
   - 💻 Programming:
     - Python:
