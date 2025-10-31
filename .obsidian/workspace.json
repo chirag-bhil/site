@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
+                "file": "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.web_requests"
+              "title": "brains"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2a9f756b99bd7d64",
@@ -172,18 +173,22 @@
   },
   "active": "3ee96b3edb444082",
   "lastOpenFiles": [
+    "docs/docs/assets/images/Pasted image 20251031112046.png",
+    "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
+    "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
+    "docs/docs/cybersecurity/tryhackme/challenges",
+    "docs/docs/cybersecurity/tryhackme",
+    "docs/docs/cybersecurity/tryhackme.md",
     "docs/docs/assets/images/Pasted image 20251030210508.png",
     "docs/docs/assets/images/Pasted image 20251030205951.png",
     "docs/docs/assets/images/Pasted image 20251030204934.png",
     "docs/docs/assets/images/Pasted image 20251030204107.png",
     "docs/docs/assets/images/Pasted image 20251030203841.png",
-    "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
     "docs/docs/assets/images/Pasted image 20251030205005.png",
     "docs/docs/assets/images/Pasted image 20251030204954.png",
     "docs/docs/assets/images/Pasted image 20251030204937.png",
     "docs/docs/assets/Pasted image 20251030203751.png",
     "docs/docs/assets/Pasted image 20251030203439.png",
-    "docs/docs/assets/images/url-structured.png",
     "assets/images/Pasted.md",
     "assets/images",
     "assets",
@@ -196,7 +201,6 @@
     "docs/docs/cybersecurity/ctf.md",
     "docs/docs/cybersecurity/network.md",
     "docs/docs/cybersecurity/sqli.md",
-    "docs/docs/cybersecurity/tryhackme.md",
     "docs/docs/cybersecurity/web-hacking.md",
     "README.md",
     "docs/docs/README.md",
