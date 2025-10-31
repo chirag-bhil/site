@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
+                "file": "docs/docs/cybersecurity/extra/Trace_method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "brains"
+              "title": "Trace_method"
             }
           }
         ]
@@ -170,11 +170,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "3ee96b3edb444082",
+  "active": "0a5564133ad0f572",
   "lastOpenFiles": [
-    "docs/docs/assets/images/Pasted image 20251031112046.png",
+    "docs/docs/cybersecurity/hackthebox.md",
+    "docs/docs/cybersecurity/extra/Trace_method.md",
+    "docs/docs/cybersecurity/extra",
+    "docs/docs/cybersecurity/network.md",
+    "docs/docs/cybersecurity/owasp-top10.md",
     "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
     "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
+    "docs/docs/assets/images/Pasted image 20251031112046.png",
     "docs/docs/cybersecurity/tryhackme/challenges",
     "docs/docs/cybersecurity/tryhackme",
     "docs/docs/cybersecurity/tryhackme.md",
@@ -187,18 +192,14 @@
     "docs/docs/assets/images/Pasted image 20251030204954.png",
     "docs/docs/assets/images/Pasted image 20251030204937.png",
     "docs/docs/assets/Pasted image 20251030203751.png",
-    "docs/docs/assets/Pasted image 20251030203439.png",
     "assets/images/Pasted.md",
     "assets/images",
     "assets",
     "docs/docs/assets/images",
     "docs/docs/assets",
-    "docs/docs/cybersecurity/hackthebox.md",
     "docs/docs/cybersecurity/bug_bounty/1. web_requests",
     "docs/docs/cybersecurity/bug_bounty",
-    "docs/docs/cybersecurity/owasp-top10.md",
     "docs/docs/cybersecurity/ctf.md",
-    "docs/docs/cybersecurity/network.md",
     "docs/docs/cybersecurity/sqli.md",
     "docs/docs/cybersecurity/web-hacking.md",
     "README.md",
