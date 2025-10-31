@@ -73,18 +73,5 @@ TRACE can be **dangerous** if left enabled because it might reveal sensitive dat
 Attackers can abuse it in something called a **Cross-Site Tracing (XST)** attack.  
 That’s why **most modern servers disable TRACE** by default.
 
----
 
-### 🧩 Quick Summary
 
-|Feature|Description|
-|---|---|
-|**Purpose**|Debugging request path|
-|**Server action**|Echoes back your exact request|
-|**Response code**|`200 OK` if supported|
-|**Safe?**|No, usually disabled|
-|**Real-world analogy**|Asking someone to repeat exactly what you said to see if it got changed|
-
----
-
-Would you like me to show you a **real cURL example** (so you can try TRACE on a safe server and see how it works)?
