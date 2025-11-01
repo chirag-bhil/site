@@ -139,7 +139,9 @@ THM{faa9bac345709b6620a6200b484c7594}
 
 ### Blue Team Part
 
-so the first question is `What is the name of the backdoor user which was created on the server after exploitation?`
+so the first question is :
+
+`What is the name of the backdoor user which was created on the server after exploitation?`
 
 so i just selected all time here 
 
@@ -154,7 +156,8 @@ i searched this and found this :
 ![](attachments/Pasted%20image%2020251101190517.png)
 
 ---
-Now the second question `What is the name of the malicious-looking package installed on the server?`
+Now the second question :
+`What is the name of the malicious-looking package installed on the server?`
 
 for package i checked `dpkg.log` using this 
 
@@ -171,7 +174,9 @@ source="/var/log/dpkg.log" date_month="july" date_mday="4" *install*
 ![](attachments/Pasted%20image%2020251101191303.png)
 
 ---
-Now last question `What is the name of the plugin installed on the server after successful exploitation?`
+Now last question :
+
+`What is the name of the plugin installed on the server after successful exploitation?`
 
 so this question is about plugin of teamcity i remembered that there is one directory when i got shell first time 
 
@@ -187,3 +192,7 @@ then i tried with many files and finally using this i found it :
 source="/opt/teamcity/TeamCity/logs/teamcity-activities.log"
 index=* 
 ```
+
+![](attachments/Pasted%20image%2020251101192651.png)
+
+---
