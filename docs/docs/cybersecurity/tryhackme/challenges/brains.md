@@ -1,7 +1,8 @@
+# Brain
 ![](../../../assets/images/Pasted%20image%2020251031112046.png)
 
 ---
-# Red
+## Red
 ### Enumeration
 `Nmap`
 ```js
@@ -136,7 +137,7 @@ THM{faa9bac345709b6620a6200b484c7594}
 ```
 
 ---
-# Blue 
+## Blue 
 
 so the first question is :
 
