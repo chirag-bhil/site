@@ -139,3 +139,4 @@ THM{faa9bac345709b6620a6200b484c7594}
 
 ### Blue Team Part
 
+![](../../../assets/images/Pasted%20image%2020251101185212.png)
