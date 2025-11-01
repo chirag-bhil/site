@@ -1,7 +1,8 @@
 ![](../../../assets/images/Pasted%20image%2020251031112046.png)
 
 ---
-# Enumeration
+# Method 1
+### Enumeration
 `Nmap`
 ```js
  .-. .----..---.  .----. .---.   .--.  .-. .-.
@@ -64,7 +65,7 @@ then just searched on `msfconsole` and found it :
 ![](../../../assets/images/Pasted%20image%2020251101183337.png)
 
 ---
-# Exploitation
+### Exploitation
 
 i used 4th module from above list : 
 
@@ -133,3 +134,8 @@ Mode              Size  Type  Last modified              Name
 (Meterpreter 2)(/home/ubuntu) > cat flag.txt
 THM{faa9bac345709b6620a6200b484c7594}
 ```
+
+---
+
+### Blue Team Part
+
