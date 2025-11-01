@@ -144,3 +144,26 @@ so the first question is `What is the name of the backdoor user which was create
 so i just selected all time here 
 
 ![](attachments/Pasted%20image%2020251101190153.png)
+
+```js
+source="/var/log/auth.log" index=* "new user"
+```
+
+i searched this and found this : 
+
+![](attachments/Pasted%20image%2020251101190517.png)
+
+Now the second question `What is the name of the malicious-looking package installed on the server?`
+
+for package i checked `dpkg.log` using this 
+
+```js
+source="/var/log/dpkg.log" *install*
+```
+
+but i found many pkgs so i mentioned date from user that we found earlier `eviluser` 
+
+```js
+source="/var/log/dpkg.log" date_month="july" date_mday="4" *install*
+```
+
