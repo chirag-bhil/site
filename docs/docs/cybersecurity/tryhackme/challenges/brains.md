@@ -1,6 +1,7 @@
 ![](../../../assets/images/Pasted%20image%2020251031112046.png)
 
 ---
+# Enumeration
 `Nmap`
 ```js
  .-. .----..---.  .----. .---.   .--.  .-. .-.
@@ -48,10 +49,14 @@ Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
 ```
 
 ---
-there is one login page on port `50000`
+There is one login page on port `50000`
+
 ![](../../../assets/images/Pasted%20image%2020251101164357.png)
 
 ![](../../../assets/images/Pasted%20image%2020251101170127.png)
+
+I just Noticed Version 2023.11.3
+
 ![](../../../assets/images/Pasted%20image%2020251101170143.png)
 
 ```bash
