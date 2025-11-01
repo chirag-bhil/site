@@ -145,7 +145,7 @@ so the first question is :
 
 so i just selected all time here 
 
-![](attachments/Pasted%20image%2020251101190153.png)
+![](docs/docs/assets/images/Pasted%20image%2020251101190153.png)
 
 ```js
 source="/var/log/auth.log" index=* "new user"
@@ -153,7 +153,7 @@ source="/var/log/auth.log" index=* "new user"
 
 i searched this and found this : 
 
-![](attachments/Pasted%20image%2020251101190517.png)
+![](docs/docs/assets/images/Pasted%20image%2020251101190517.png)
 
 ---
 Now the second question :
@@ -171,7 +171,7 @@ but i found many pkgs so i mentioned date from user that we found earlier `evilu
 source="/var/log/dpkg.log" date_month="july" date_mday="4" *install*
 ```
 
-![](attachments/Pasted%20image%2020251101191303.png)
+![](docs/docs/assets/images/Pasted%20image%2020251101191303.png)
 
 ---
 Now last question :
@@ -180,11 +180,11 @@ Now last question :
 
 so this question is about plugin of teamcity i remembered that there is one directory when i got shell first time 
 
-![](attachments/Pasted%20image%2020251101191555.png)
+![](docs/docs/assets/images/Pasted%20image%2020251101191555.png)
 
 and when i go one directory back i found `logs` directory 
 
-![](attachments/Pasted%20image%2020251101191828.png)
+![](docs/docs/assets/images/Pasted%20image%2020251101191828.png)
 
 then i tried with many files and finally using this i found it : 
 
@@ -193,6 +193,6 @@ source="/opt/teamcity/TeamCity/logs/teamcity-activities.log"
 index=* 
 ```
 
-![](attachments/Pasted%20image%2020251101192651.png)
+![](docs/docs/assets/images/Pasted%20image%2020251101192651.png)
 
 ---
