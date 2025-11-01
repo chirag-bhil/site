@@ -153,6 +153,7 @@ i searched this and found this :
 
 ![](attachments/Pasted%20image%2020251101190517.png)
 
+---
 Now the second question `What is the name of the malicious-looking package installed on the server?`
 
 for package i checked `dpkg.log` using this 
@@ -167,3 +168,22 @@ but i found many pkgs so i mentioned date from user that we found earlier `evilu
 source="/var/log/dpkg.log" date_month="july" date_mday="4" *install*
 ```
 
+![](attachments/Pasted%20image%2020251101191303.png)
+
+---
+Now last question `What is the name of the plugin installed on the server after successful exploitation?`
+
+so this question is about plugin of teamcity i remembered that there is one directory when i got shell first time 
+
+![](attachments/Pasted%20image%2020251101191555.png)
+
+and when i go one directory back i found `logs` directory 
+
+![](attachments/Pasted%20image%2020251101191828.png)
+
+then i tried with many files and finally using this i found it : 
+
+```js
+source="/opt/teamcity/TeamCity/logs/teamcity-activities.log"
+index=* 
+```
