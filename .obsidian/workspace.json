@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docs/cybersecurity/extra/Trace_method.md",
+                "file": "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trace_method"
+              "title": "brains"
             }
           }
         ]
@@ -170,10 +170,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "0a5564133ad0f572",
+  "active": "3ee96b3edb444082",
   "lastOpenFiles": [
-    "docs/docs/cybersecurity/hackthebox.md",
+    "docs/docs/assets/images/Pasted image 20251101164357.png",
     "docs/docs/cybersecurity/extra/Trace_method.md",
+    "docs/docs/cybersecurity/hackthebox.md",
     "docs/docs/cybersecurity/extra",
     "docs/docs/cybersecurity/network.md",
     "docs/docs/cybersecurity/owasp-top10.md",
