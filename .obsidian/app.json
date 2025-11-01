@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "docs/docs/assets/images",
+  "attachmentFolderPath": "attachments",
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "absolute"
 }

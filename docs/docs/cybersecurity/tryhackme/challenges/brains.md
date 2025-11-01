@@ -139,4 +139,8 @@ THM{faa9bac345709b6620a6200b484c7594}
 
 ### Blue Team Part
 
-![](../../../assets/images/Pasted%20image%2020251101185212.png)
+so the first question is `What is the name of the backdoor user which was created on the server after exploitation?`
+
+so i just selected all time here 
+
+![](attachments/Pasted%20image%2020251101190153.png)
