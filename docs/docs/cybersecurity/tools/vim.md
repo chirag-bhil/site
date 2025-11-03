@@ -135,15 +135,15 @@ In Normal Mode, you don’t use arrow keys — you use **H, J, K, L**:
 
 Vim uses **yank**, **delete**, and **put** instead of copy, cut, paste.
 
-|Command|Action|
-|---|---|
-|`yy`|Copy current line|
-|`dd`|Delete current line|
-|`p`|Paste after cursor|
-|`P`|Paste before cursor|
-|`x`|Delete character under cursor|
-|`u`|Undo last change|
-|`Ctrl + r`|Redo|
+| Command    | Action                        |
+| ---------- | ----------------------------- |
+| `yy`       | Copy current line             |
+| `dd`       | Delete current line           |
+| `p`        | Paste after cursor            |
+| `P`        | Paste before cursor           |
+| `x`        | Delete character under cursor |
+| `u`        | Undo last change              |
+| `Ctrl + r` | Redo                          |
 
 ---
 
