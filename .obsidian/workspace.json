@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
-                "mode": "source",
+                "file": "docs/docs/cybersecurity/tools/vim.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "brains"
+              "title": "vim"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 412.5,
+    "collapsed": true
   },
   "right": {
     "id": "2a9f756b99bd7d64",
@@ -170,8 +171,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "0a5564133ad0f572",
+  "active": "3ee96b3edb444082",
   "lastOpenFiles": [
+    "docs/docs/assets/images/Pasted image 20251103150010.png",
+    "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
+    "docs/docs/cybersecurity/tools/vim.md",
+    "docs/docs/cybersecurity/tools",
     "docs/docs/assets/images/Pasted image 20251101200749.png",
     "docs/docs/assets/images/Pasted image 20251101200650.png",
     "docs/docs/assets/images/Pasted image 20251101200012.png",
@@ -183,14 +188,12 @@
     "docs/docs/assets/images/Pasted image 20251101190153.png",
     "attachments",
     "docs/docs/assets/images/Pasted image 20251101185212.png",
-    "docs/docs/assets/images/Pasted image 20251101183337.png",
     "docs/docs/cybersecurity/extra/Trace_method.md",
     "docs/docs/cybersecurity/hackthebox.md",
     "docs/docs/cybersecurity/extra",
     "docs/docs/cybersecurity/network.md",
     "docs/docs/cybersecurity/owasp-top10.md",
     "docs/docs/cybersecurity/bug_bounty/1.web_requests.md",
-    "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
     "docs/docs/cybersecurity/tryhackme/challenges",
     "docs/docs/cybersecurity/tryhackme",
     "docs/docs/cybersecurity/tryhackme.md",
@@ -200,7 +203,6 @@
     "docs/docs/assets/images",
     "docs/docs/assets",
     "docs/docs/cybersecurity/bug_bounty/1. web_requests",
-    "docs/docs/cybersecurity/bug_bounty",
     "docs/docs/cybersecurity/ctf.md",
     "docs/docs/cybersecurity/sqli.md",
     "docs/docs/cybersecurity/web-hacking.md",
