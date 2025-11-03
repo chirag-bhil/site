@@ -120,14 +120,15 @@ In Normal Mode, you don’t use arrow keys — you use **H, J, K, L**:
 
 ### Faster Movement
 
-|Command|Action|
-|---|---|
-|`0`|Go to beginning of line|
-|`$`|Go to end of line|
-|`w`|Jump to next word|
-|`b`|Jump back a word|
-|`G`|Go to end of file|
-|`gg`|Go to start of file|
+| Command | Action                          |
+| ------- | ------------------------------- |
+| `0`     | Go to beginning of line         |
+| `$`     | Go to end of line               |
+| `w`     | Jump to next word               |
+| `b`     | Jump back a word                |
+| `G`     | Go to end of file               |
+| `gg`    | Go to start of file             |
+| `e`     | jump to **end** of current word |
 
 ---
 
@@ -146,7 +147,24 @@ Vim uses **yank**, **delete**, and **put** instead of copy, cut, paste.
 | `Ctrl + r` | Redo                          |
 
 ---
+### Inserting and Appending Text
 
+Vim gives multiple ways to insert text:
+
+- `i` → insert **before** cursor
+    
+- `I` → insert at **beginning** of the line
+    
+- `a` → append **after** cursor
+    
+- `A` → append at **end** of the line
+    
+- `o` → open a **new line below** current line
+    
+
+These commands give fine-grained control over where and how you add text.
+
+---
 ## 🔍 Searching and Replacing
 
 ### Search
