@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docs/cybersecurity/tools/vim.md",
+                "file": "docs/docs/cybersecurity/hackthebox.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vim"
+              "title": "hackthebox"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 223.5
   },
   "right": {
     "id": "2a9f756b99bd7d64",
@@ -172,9 +172,9 @@
   },
   "active": "3ee96b3edb444082",
   "lastOpenFiles": [
+    "docs/docs/cybersecurity/tools/vim.md",
     "docs/docs/assets/images/Pasted image 20251103150010.png",
     "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
-    "docs/docs/cybersecurity/tools/vim.md",
     "docs/docs/cybersecurity/tools",
     "docs/docs/assets/images/Pasted image 20251101200749.png",
     "docs/docs/assets/images/Pasted image 20251101200650.png",
@@ -186,7 +186,6 @@
     "docs/docs/assets/images/Pasted image 20251101190517.png",
     "docs/docs/assets/images/Pasted image 20251101190153.png",
     "attachments",
-    "docs/docs/assets/images/Pasted image 20251101185212.png",
     "docs/docs/cybersecurity/extra/Trace_method.md",
     "docs/docs/cybersecurity/hackthebox.md",
     "docs/docs/cybersecurity/extra",
