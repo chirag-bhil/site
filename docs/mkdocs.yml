@@ -64,7 +64,8 @@ nav:
     
     - Blogs: 
       - Trace Method: cybersecurity/extra/Trace_method.md
-  
+      - Comic Style Blog:
+          - 1. Vector Cain Casefile: cybersecurity/extra/Vector_Cain_Casefile.md
   - 💻 Programming:
     - Python:
       - Basics: programming/python-basics.md
