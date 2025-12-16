@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docs/cybersecurity/hackthebox.md",
-                "mode": "preview",
+                "file": "docs/docs/cybersecurity/extra/Vector_Cain_Casefile.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hackthebox"
+              "title": "Vector_Cain_Casefile"
             }
           }
         ]
@@ -172,6 +172,9 @@
   },
   "active": "3ee96b3edb444082",
   "lastOpenFiles": [
+    "docs/mkdocs.yml~",
+    "docs/docs/cybersecurity/hackthebox.md",
+    "docs/docs/cybersecurity/extra/Vector_Cain_Casefile.md",
     "docs/docs/cybersecurity/tools/vim.md",
     "docs/docs/assets/images/Pasted image 20251103150010.png",
     "docs/docs/cybersecurity/tryhackme/challenges/brains.md",
@@ -187,7 +190,6 @@
     "docs/docs/assets/images/Pasted image 20251101190153.png",
     "attachments",
     "docs/docs/cybersecurity/extra/Trace_method.md",
-    "docs/docs/cybersecurity/hackthebox.md",
     "docs/docs/cybersecurity/extra",
     "docs/docs/cybersecurity/network.md",
     "docs/docs/cybersecurity/owasp-top10.md",

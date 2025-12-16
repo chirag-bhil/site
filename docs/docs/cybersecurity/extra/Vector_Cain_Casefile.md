@@ -10,8 +10,6 @@
 
 ![Image](https://s47295.pcdn.co/wp-content/uploads/2024/01/Control-room-Main-Image-e1706630400398.jpg?utm_source=chatgpt.com)
 
-![Image](https://png.pngtree.com/thumb_back/fw800/background/20251121/pngtree-neon-digital-grid-with-glowing-data-streams-image_20499941.webp?utm_source=chatgpt.com)
-
 Neon light poured over **Axiom City**—a place run by code.
 
 Traffic lights. Power grids. Hospitals.  
@@ -30,7 +28,7 @@ Vector Cain didn’t believe in that word.
 
 ![Image](https://cdn.dribbble.com/userupload/45077405/file/c8f830b0f2077ff1256d68127483a4c0.png?crop=907x680-3594x2695&format=webp&resize=400x300&vertical=center&utm_source=chatgpt.com)
 
-![Image](https://elements-resized.envatousercontent.com/elements-video-cover-images/f0fbb2cd-20a6-42ee-8b07-11d1ddecdaa6/video_preview/video_preview_0000.jpg?cf_fit=cover&format=auto&q=85&s=ecc44283065ac8a22fc659c5c46ab09c3ce00fedd880e24ccd168247dd44469d&w=500&utm_source=chatgpt.com)
+
 
 ![Image](https://pikwizard.com/pw/medium/181170932acefa18ce5af488327b08c0.png?utm_source=chatgpt.com)
 
